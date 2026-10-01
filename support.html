@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NapOut Support</title>
+<style>
+  :root { --bg: #F4F7FD; --text: #1E2540; --muted: #6B7195; --accent: #E3A64B; --accent-deep: #C97F2B; --ink: #241304; --card: #FFFFFF; --border: rgba(30,37,64,0.09); }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; -webkit-text-size-adjust: 100%; }
+  main { max-width: 680px; margin: 0 auto; padding: 28px 20px 48px; }
+  h1 { font-family: ui-serif, Georgia, serif; font-weight: 500; font-size: 30px; line-height: 1.2; margin: 0 0 4px; }
+  h2 { font-size: 17px; margin: 32px 0 10px; }
+  .lead { color: var(--muted); margin: 0 0 20px; }
+  .contact { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 18px 16px; text-align: center; }
+  .contact p { margin: 0 0 14px; }
+  .button { display: inline-block; padding: 14px 28px; border-radius: 16px; background: linear-gradient(#F6C179, var(--accent)); color: var(--ink); font-weight: 600; text-decoration: none; box-shadow: 0 6px 14px rgba(227,166,75,0.35); }
+  details { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 12px 16px; margin: 0 0 10px; }
+  summary { font-weight: 600; cursor: pointer; }
+  details p { margin: 10px 0 2px; }
+  a { color: var(--accent-deep); }
+  footer { margin-top: 32px; color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+<h1>Support</h1>
+<p class="lead">Help with NapOut, the alarm that wakes you before your stop.</p>
+
+<div class="contact">
+  <p>Something not working, or have an idea? Send a message and I'll get back to you.</p>
+  <a class="button" href="https://tally.so/r/VLgJea">Contact us</a>
+</div>
+
+<h2>Common questions</h2>
+
+<details>
+  <summary>Why didn't my alarm ring?</summary>
+  <p>The most common reasons are: NapOut was closed from the app switcher while the trip was armed, location access was set to “Never” or “While Using the App”, alarm access was turned off, or the phone had no GPS signal (for example underground). Keep NapOut open in the background, and in Settings &gt; NapOut set Location to “Always” and allow Alarms.</p>
+</details>
+
+<details>
+  <summary>Why does NapOut need my location?</summary>
+  <p>To see how close you are to your stop and wake you before you get there. With “Always” access, iOS can wake NapOut near your stop even when the app is closed. Your location stays on your phone and is never sent to me.</p>
+</details>
+
+<details>
+  <summary>Will the alarm ring if my phone is on silent?</summary>
+  <p>Yes, as long as NapOut is allowed to set alarms. You can check this in NapOut's Settings under Alarm access.</p>
+</details>
+
+<details>
+  <summary>How do I change how early it wakes me?</summary>
+  <p>Open Settings in NapOut and change <em>Wake distance</em> to 500 m, 1 km or 2 km. A bigger distance gives you more time to get ready.</p>
+</details>
+
+<details>
+  <summary>Why does the time left not go down?</summary>
+  <p>The minutes left follow where you actually are, so they only go down as you move. If you're stuck in traffic, the minutes stay the same and the arrival time gets later.</p>
+</details>
+
+<details>
+  <summary>How do I delete my data?</summary>
+  <p>NapOut keeps everything on your phone and has no account, so deleting the app deletes all of it.</p>
+</details>
+
+<footer>
+  <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Use</a>
+</footer>
+</main>
+</body>
+</html>
